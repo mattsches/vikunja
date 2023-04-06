@@ -28,6 +28,9 @@ linters-settings:
     min-complexity: 6
   goheader:
     template-path: code-header-template.txt
+    values:
+      const:
+        year-range: "2018"
 
 issues:
   exclude-rules:
